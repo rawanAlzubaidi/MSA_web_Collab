@@ -1,0 +1,21 @@
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;  
+}
+
+/*CSS variables */
+:root{
+    --primary-color: #260101;
+    --primary-color2: #260101;
+    --title-color:#260101;
+    --text-color:#260101;
+    --border-color:#260101;
+    --gardient-color:#4B0000; /*background */
+    --shadow-color:#260101;
+    --box-shadow:#260101;
+    --box-shadow:#260101;
+
+    --nunito:"Nunito";
+}

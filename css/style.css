@@ -1,0 +1,342 @@
+
+/*import fonts from fonts.css file*/ 
+@import url(./fonts.css);
+
+@import url(./partials/_variables.css);
+@import url(./partials/_global.css);
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+
+#html{
+    font-family: var(--nunito);
+}
+
+
+
+/* start navigation */
+.banner-image {
+    background-image: url(/img/tamuView.png);
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+
+.header_area .nav-item .nav-link{
+    font: normal 500 15px/2px var(--nunito);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .container .navbar-nav a:hover{
+    background: var(--gardient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip:text;
+
+}
+
+
+/* end navigation  */
+
+
+/* banner area    */
+
+
+
+.header_area .banner-image .content h1{
+    font-family:var(--nunito);
+    font-size:50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:var(--text-color);
+
+
+    /* transform:translate(-10px); */
+}
+
+.header_area .banner-image .content h2{
+    font-family:var(--nunito);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:var(--text-color);
+    /* transform:translate(-10px); */
+}
+
+.site-main .site-banner .site-title button{
+    font-family:var(--nunito);
+    text-align: center;
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:var(--text-color);
+}
+/* end banner area    */
+
+
+/* Our Purpose Area */
+.site-main .Purpose-area{
+    padding: 7rem 2rem;
+}
+.site-main .Purpose-area .services-title{
+    padding: 0 14rem;
+    background: rgba(248, 252, 253, 0.973);
+    border-radius: 12px;
+
+}
+
+.site-main .Purpose-area .services-title h1{
+    font-size: 35px;
+    font-family: var(--nunito);
+    color:var(--primary-color);
+}
+.site-main .Purpose-area .services-title p{
+    font-size: 20px;
+    font-family: var(--nunito);
+}
+.site-main .Purpose-area .services-title li{
+    font-size: 20px;
+    font-family: var(--nunito);
+}
+
+
+/* Our Purpose Area  END*/
+
+
+
+
+
+/* what we do area */
+
+.site-main .services-area{
+    padding: 7rem 7rem;
+}
+
+
+
+
+.site-main .services-area .wwd-title h1{
+    padding-top: 35px;
+    background: rgba(248, 252, 253, 0.973);
+    border-radius: 12px;
+    font-size: 35px;
+    font-family: var(--nunito);
+    color:var(--primary-color);
+
+}
+
+
+
+
+
+
+/* start  wwd area*/
+
+.site-main .services-area .wwd-title{
+    padding: 0 14rem;
+    margin:;
+}
+
+.site-main .services-area .wwd-title h2{
+    font-size: 35px;
+    
+}
+.site-main .services-area .wwd-title h2{
+    font-size: 35px;
+    
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+
+
+
+
+
+.site-main .project-area{
+    padding: 10px;;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--nunito);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 1rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 500 25px/12px var(--nunito);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+
+/* ------------------------------------FAQ section  */
+.main .FAQ{
+    margin: auto; 
+    font-size:10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+}
+/* .FAQ{
+    width:100%;
+    height: 200vh;
+    background-color: teal;
+    display: center;
+    align-items: center;
+    justify-content: center;
+    
+} */
+
+.FAQ .container{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;  
+    padding: 0 1.5rem;
+
+}
+
+
+.accordion-item{
+    background-color:#283042;
+    border-radius: 2rem;
+    margin-bottom: 1rem; /*the space between the questions  */
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
+}
+
+ .accordion-link{
+    font-size: 12px;
+    font-family: var(--nunito);
+    color: rgba(255,255,255,.8);
+    text-decoration:none;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 0;
+
+}
+
+.accordion-link i{
+    color:#e7d5ff;
+    padding: .5rem;
+
+}
+
+
+.accordion-link .ion-md-remove{
+    display:none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    padding:0%;
+    background-color: #212838;
+    background-size: 50%;
+    transition:max-height 650ms;
+
+}
+.answer::before{
+    content: "";
+    position:absolute;
+
+    width:.3rem;
+    height: 100%;
+    background-color:#8fc460;
+
+
+    top :50%;
+    left: 0;
+    transform:translateY(-50%);
+}
+
+.answer p{
+    font-size:1.4rem;
+    color:rgba(255,255,255,.6);
+    padding: 2rem;
+}
+
+
+.accordion-item:target .answer{
+    max-height: 20rem;
+
+}
+
+
+.accordion-item:target .accordion-link .ion-md-add{
+    display:none;
+}
+
+.accordion-item:target .accordion-link .ion-md-remove{
+    display: block;
+}
+/* ------------------------------------FAQ section END */
+
+
+
+  
+
+
+.site-main .about-area{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--nunito);
+    letter-spacing: 21px;
+}
+
+
+
+.site-main .about-area .about-image img{
+    border-radius: 50%;
+    background-image:;
+}
+/* End About Area */ 
