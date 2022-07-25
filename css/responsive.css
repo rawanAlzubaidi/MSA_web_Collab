@@ -1,0 +1,127 @@
+
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 340px){
+    .header_area .nav-item .nav-link
+    
+
+    /* removing padding and margin from that nav */
+    {
+        padding: 8%;
+        margin: 0%;
+    }
+
+
+    .bgimage {
+        font-size: 45px;
+        margin: 0%;
+    }
+
+
+    
+    .site-main .WWD-area{
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    } 
+
+    .site-main .purpose-area{
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .WWD-area{
+        padding-left: 0% ;
+        padding-right: 0% ;
+        /* background-color: blue; */
+    }
+    .WWD-area .container-fluid{
+        /* background-color: chocolate; */
+        padding-left: 0% ;
+        padding-right: 0% ;
+    }
+    
+}
+
+
+/* if the viewport is equal to 792px or less than that */ 
+@media only screen and (max-width: 792px){
+    .site-main .WWD-area{
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    } 
+
+    .site-main .purpose-area{
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .site-main .purpose-area{
+        padding: 0rem 0rem;
+    }
+    
+    .site-main .purpose-area .purpose-title{
+        padding: 0rem;
+        background: rgba(248, 252, 253, 0.973);
+        border-radius: 12px;
+    }
+    
+    .site-main .purpose-area .purpose-title h1{
+        font-size: 35px;
+        font-family: var(--nunito);
+        color:var(--primary-color);
+    }
+    .site-main .purpose-area .purpose-title p{
+        font-size: 20px;
+        font-family: var(--nunito);
+    }
+    .site-main .purpose-area .purpose-title li{
+        font-size: 20px;
+        font-family: var(--nunito);
+    }
+
+    .WWD-area{
+        padding-left: 0% ;
+        padding-right: 0% ;
+        /* background-color: blue; */
+    }
+    .WWD-area .container-fluid{
+        /* background-color: chocolate; */
+        padding-left: 0% ;
+        padding-right: 0% ;
+    }
+    .row_margin{
+        flex-wrap: wrap;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+    .header_area .nav-item .nav-link{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .site-main .services-area,
+    .site-main .services-area .services-title,
+    .site-main .WWD-area{
+        padding: 3% 4%;
+    }
+
+}
