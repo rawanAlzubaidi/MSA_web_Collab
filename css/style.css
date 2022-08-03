@@ -16,13 +16,34 @@
 }
 
 
+/* scroll effect */
+
+.reveal{
+
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 1s ease;
+  }
+  
+  .reveal.active{
+  
+    transform: translateY(0px);
+    opacity: 1;
+    animation-iteration-count: 1
+  }
+
+
+
+
+
 
 #html{
     font-family: var(--nunito);
 }
 
 .blue-maroon-transition {
-    background: url(/img/islamicArt2_webpat-01.png);
+    background: url(/img/islamicArt_webpat_Blue_navy-01.png);
 
     height: 10.375rem;
     background-size: auto 100%;
@@ -30,8 +51,8 @@
 }
 
 .End_blue-maroon-transition {
-    background: url(/img/islamicArt2_webpat-01.png);
-    transform: rotate(180deg);
+    background: url(/img/islamicArt_webpat_Blue_navy_end-04.png);
+  
     height: 10.375rem;
     background-size: auto 100%;
 
@@ -40,30 +61,33 @@
 
 
 /* start navigation */
-
+.bg-dark {
+    background-color:var(--divider_blue1)!important;
+}
 
 .header_area .nav-item .nav-link{
     font: normal 500 15px/2px var(--nunito);
     text-transform: uppercase;
-    padding: 1.7rem;
-    color: var(--title-color);
+    /* padding: 1.7rem; */
+    color: var(--tamu_maroon);
 }
 
+
+
 .header_area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
+    background: var(--tamu_maroon);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .header_area .container .navbar-nav a:hover{
-    background: var(--gardient-color);
+    background: var(--tamu_maroon);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip:text;
 
 }
-
 
 /* end navigation  */
 
@@ -73,7 +97,7 @@
 
 
 
-    height: 723px;
+    height: 780px;
     width: 100%;
     text-align: center;
     padding-top: 250px;
@@ -90,12 +114,12 @@
 
 }
 .bgimage  h1 {
-    color:var(--gardient-color);
+    color:var(--tamu_maroon);
     font: normal bold 40px/ 50px var(--nunito);
 }
 
 .bgimage  h2 {
-    color:var(--gardient-color);
+    color:var(--tamu_maroon);
     font: normal bold 40px/ 50px var(--nunito);
 } 
 /* end banner area   
@@ -233,7 +257,7 @@
     border-radius: 12px;
     font-size: 35px;
     font-family: var(--nunito);
-    color:var(--primary-color);
+    color:var(--tamu_maroon);
 
 }
 
@@ -256,10 +280,13 @@
     font: normal bold 49px/ 60px var(--nunito);
     letter-spacing: 10px;
     font-size: 35px;
+    color:var(--tamu_maroon);
+
 }
 .site-main .WWD-area p{
     font-size: 18px;
     font-family: var(--nunito);
+    color:var(--tamu_maroon);
 
 
 }
@@ -398,3 +425,52 @@
 /* Faq waviy effect end */
   
   
+.footer-section{
+    background-color:var(--divider_blue1);
+}
+
+
+
+.footer-content a{
+    color: var(--tamu_navy);
+    text-align: center;
+
+}
+
+
+
+
+
+
+/* calender section */
+
+.header_area .calender_img {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+    overflow: hidden;
+    background: linear-gradient(rgb(255,255,255,0.2), rgb(255,255,255,0.2)), url(/img/tamuMSA.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+
+    z-index: -1;
+    
+
+}
+.calender_img  h1 {
+    color:var(--tamu_maroon);
+    font: normal bold 40px/ 50px var(--nunito);
+}
+
+.calender_img  h2 {
+    color:var(--tamu_maroon);
+    font: normal bold 40px/ 50px var(--nunito);
+} 
+
+
+
+
