@@ -474,3 +474,281 @@
 
 
 
+
+ /* ----------------------------------------------------team section  begin  */
+
+#html{
+    font-family: var(--nunito);
+}
+
+.header_area .bgimage {
+    width:100%;
+    height:250px;
+    background:url(/img/SS/social.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    z-index: -1;
+
+    justify-content: center;
+    text-align: center;
+
+  }
+
+.exc-section {
+    padding-left:150px;
+    padding-right:150px;
+}
+  
+  
+.exc-section .img-container img{
+    border-radius:50% ;
+  
+}
+  
+  
+.exc-section .card-body .image-caption{
+      font-family: var(--nunito);
+      font-size: 12px;
+}
+
+.exc-section .exc-title{
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    font: normal bold 49px/ 60px var(--nunito);
+    letter-spacing: 8px;
+    font-size: 24px;
+}
+
+.team-section {
+  padding-left:150px;
+  padding-right:150px;
+}
+
+
+.team-section .img-container img{
+    border-radius:50% ;
+
+}
+
+
+.team-section .card-body .image-caption{
+    font-family: var(--nunito);
+    font-size: 12px;
+}
+
+
+.team-section .team-title{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    font: normal bold 49px/ 60px var(--nunito);
+    letter-spacing: 8px;
+    font-size: 24px;
+}
+
+ /* ----------------------------------------------------team section  end */
+
+ /*--- resoucers page begin---*/
+
+.blue-maroon-transition {
+    background: url(/img/islamicArt_webpat_Blue_navy-01.png);
+
+    height: 10.375rem;
+    background-size: auto 100%;
+
+}
+
+.End_blue-maroon-transition {
+    background: url(/img/islamicArt_webpat_Blue_navy-01.png);
+    transform: rotate(180deg);
+    height: 10.375rem;
+    background-size: auto 100%;
+
+}
+
+
+
+.header_area .bgimage {
+    width:100%;
+    height:250px;
+    background:url(/img/SS/social.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    z-index: -1;
+
+    justify-content: center;
+    text-align: center;
+
+  }
+
+
+/* start navigation */
+.banner-image {
+    background-image: url(/img/tamuView.png);
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+
+.header_area .nav-item .nav-link{
+    font: normal 500 15px/2px var(--nunito);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .container .navbar-nav a:hover{
+    background: var(--gardient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip:text;
+
+}
+
+
+/* end navigation  */
+
+
+/* banner area    */
+
+/* Create three equal columns that floats next to each other */
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .site_main .prayerTitle-area{
+      font:var(--nunito);
+  }
+
+
+.blog{
+    /* background:var(--title-color) ; */
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    background-size: 100%;
+
+}
+
+
+
+.blog .blog-content{
+    /* background:var(--title-color) ; */
+    max-width:20rem;
+    display: block;
+}
+
+
+.blog .blog-post{
+    
+    padding-bottom:12 rem ;
+
+}
+
+.blog-post .blog-content{
+    /* background:white; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+}
+
+.blog-content .blog-title h1{
+    font:var(--nunito);
+    color: var(--gardient-color);
+}
+
+.blog-content .blog-title h3{
+    font:var(--nunito);
+    font-size: 12px;
+    align-items: center;
+}
+
+
+.blog-content .btn-blog{
+  background-color:var(--button_color); /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  
+}
+
+
+
+.prayer-title h1{
+    font: normal bold 49px/ 60px var(--nunito);
+    letter-spacing: 6px;
+    font-size: 30px;
+    color: var(--gardient-color);
+}
+.prayer-title p{
+    font-family: var(--nunito);
+    letter-spacing: 3px;
+    color: var(--gardient-color);
+}
+/* ------Jummah Times section-------------*/
+
+.masjid-area h1{
+    font: normal bold 49px/ 60px var(--nunito);
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: var(--gardient-color);
+
+}
+
+.masjid-area p{
+    font-family: (--nunito);
+  
+}
+.masjid-area .container{
+    border-radius: 10px;
+}
+.jummah-area h1{
+    font: normal bold 49px/ 60px var(--nunito);
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: var(--gardient-color);
+
+}
+
+.jummah-area p{
+    font-family: (--nunito);
+  
+}
+.jummah-area .container{
+    border-radius: 10px;
+}
+
+
+.icbcs{
+    padding-top:8%;
+}
