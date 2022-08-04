@@ -5,7 +5,7 @@
 @import url(./partials/_variables.css);
 @import url(./partials/_global.css);
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-@import url(./normalize.css);
+@import url(./normalize.css)
 
 *,
 *::before,
@@ -93,7 +93,7 @@
 
 
 /* banner area    */
-.header_area .bgimage {
+.header_area .bgimage_home {
 
 
 
@@ -113,12 +113,12 @@
     
 
 }
-.bgimage  h1 {
+.bgimage_home  h1 {
     color:var(--tamu_maroon);
     font: normal bold 40px/ 50px var(--nunito);
 }
 
-.bgimage  h2 {
+.bgimage_home h2 {
     color:var(--tamu_maroon);
     font: normal bold 40px/ 50px var(--nunito);
 } 
@@ -555,21 +555,7 @@
 
  /*--- resoucers page begin---*/
 
-.blue-maroon-transition {
-    background: url(/img/islamicArt_webpat_Blue_navy-01.png);
 
-    height: 10.375rem;
-    background-size: auto 100%;
-
-}
-
-.End_blue-maroon-transition {
-    background: url(/img/islamicArt_webpat_Blue_navy-01.png);
-    transform: rotate(180deg);
-    height: 10.375rem;
-    background-size: auto 100%;
-
-}
 
 
 
@@ -732,6 +718,66 @@
 .masjid-area .container{
     border-radius: 10px;
 }
+
+
+.facility-card img{
+    width: 200;
+    border-radius: 7px;
+    
+ }
+ .facility-card{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    width: 100%;
+    position: relative;
+ }
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),#5E0707);
+    opacity: 0;
+  
+    transition: 1s;
+ }
+
+ /* --------------------------------facility section*/
+ .facility-card:hover .overlay{
+    opacity: 1;
+ }
+ .facility_description{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 1s;
+  }
+ hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+ }
+ .facility_description p{
+    font-size: 14px;
+  }
+ .facility-card:hover .facility_description{
+    bottom: 40%;
+    opacity: 1;
+ }
+
+
+
 .jummah-area h1{
     font: normal bold 49px/ 60px var(--nunito);
     letter-spacing: 3px;
@@ -752,3 +798,58 @@
 .icbcs{
     padding-top:8%;
 }
+
+
+ .title-text{
+    text-align: center;
+    padding-bottom: 70px;
+ }
+  
+  .title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #5E0707;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+ }
+  
+ .title-text p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#4e0705, #fff);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+ }
+  .title-text h1{
+    font-size: 50px;
+ }
+  
+  
+ @media screen and (max-width: 770px){
+    .title-text h1{
+        font-size: 35px;
+    }
+  
+   
+    .features{
+        flex-basis: 100%;
+    }
+    .features-img{
+        flex-basis: 100%;
+        margin: auto; 
+    }
+    .features-img img{
+        width: 100%;
+     }
+ }
+  
+ /*-- service--*/
+  
