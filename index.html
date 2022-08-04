@@ -20,6 +20,9 @@
 
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
+    <!-- for responsive navbar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 
         <!--  Responsive css file  -->
         <link rel="stylesheet" href="./css/responsive.css">
@@ -47,14 +50,18 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="mx-auto"></div>
             <ul class="navbar-nav">
+              <div class="close-btn"></div>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Home</a>
+                <a class="nav-link text-white" href="index.html">Home</a>
+                <ul class= "sub-menu">
+                  <li class= "sub-item"><a href="#">About</a></li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">RESOURCES</a>
+                <a class="nav-link text-white" href="resources.html">RESOURCES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">CALENDAR</a>
+                <a class="nav-link text-white" href="calender.html">CALENDAR</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#">CONTACT US</a>
@@ -64,6 +71,7 @@
               </li>
             </ul>
           </div>
+          <div class="menu-btn"></div>
         </div>
       </nav>
 
@@ -419,8 +427,9 @@
     <!--  Bootstrap js file  -->
     <script src="./js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
 
     <!-- something with nav bar  -->
     <script src= "js/bootstrap.bundle.min.js"></script>
@@ -466,6 +475,37 @@
       }
     }
     </script>
+    <script type= "text/javascript">
+    $(document).ready(function(){
+      //toggle sub-menus
+      $(".sub-btn").click(function(){
+        $(this).next(".sub-menu").slideToggle();
+      });
+    });
+
+    //javascript for the responsive navigation menu
+    var menu = document.querySelector(".navbar-nav");
+    var menuBtn = document.querySelector(".menu-btn");
+    var closeBtn = document.querySelector(".close-btn");
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.add("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove("active");
+    });
+
+    //javascript for the navigation bar effects on scroll
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+  </script>
+
+  
+
+
 
 </body>
 </html>
