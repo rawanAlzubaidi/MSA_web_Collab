@@ -1,33 +1,33 @@
 $(document).ready(function () {
 
 
-    let $btns = $('.project-area .button-group button');
+  let $btns = $('.project-area .button-group button');
 
 
-    $btns.click(function (e) {
+  $btns.click(function (e) {
 
-        $('.project-area .button-group button').removeClass('active');
-        e.target.classList.add('active');
+      $('.project-area .button-group button').removeClass('active');
+      e.target.classList.add('active');
 
 
-        // filltering the data 
-        let selector = $(e.target).attr('data-filter');
-        $('.project-area .grid').isotope({
-            filter: selector
-        });
+      // filltering the data 
+      let selector = $(e.target).attr('data-filter');
+      $('.project-area .grid').isotope({
+          filter: selector
+      });
 
-        return false;
-    })
+      return false;
+  })
 });
 
 
 //jquery for toggle dropdown menus
 //jquery for toggle dropdown menus
 $(document).ready(function(){
-  //toggle sub-menus
-  $(".sub-btn").click(function(){
-    $(this).next(".sub-menu").slideToggle();
-  });
+//toggle sub-menus
+$(".sub-btn").click(function(){
+  $(this).next(".sub-menu").slideToggle();
+});
 
 });
 
@@ -37,15 +37,26 @@ var menuBtn = document.querySelector(".menu-btn");
 var closeBtn = document.querySelector(".close-btn");
 
 menuBtn.addEventListener("click", () => {
-  menu.classList.add("active");
+menu.classList.add("active");
 });
 
 closeBtn.addEventListener("click", () => {
-  menu.classList.remove("active");
+menu.classList.remove("active");
 });
 
 //javascript for the navigation bar effects on scroll
 window.addEventListener("scroll", function(){
-  var header = document.querySelector("header");
-  header.classList.toggle("sticky", window.scrollY > 0);
+var header = document.querySelector("header");
+header.classList.toggle("sticky", window.scrollY > 0);
+});
+
+
+var nav = document.querySelector('nav');
+
+window.addEventListener('scroll', function () {
+  if (window.pageYOffset > 100) {
+    nav.classList.add('bg-dark', 'shadow');
+  } else {
+    nav.classList.remove('bg-dark', 'shadow');
+  }
 });
