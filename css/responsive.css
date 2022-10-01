@@ -1,115 +1,33 @@
+/* flipped the order so that the overrides work  */
 
-
-
-/* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 340px){
-    .header_area .nav-item .nav-link
-    
-
-    /* removing padding and margin from that nav */
-    {
-        padding: 8%;
-        margin: 0%;
+/* hi-res laptops and desktops */
+@media (min-width:1901px){
+    /* CSS */
+    .header_area .nav-item .nav-link{
+        padding: 1rem;
     }
 
 
-    .bgimage {
-        font-size: 45px;
-        margin: 0%;
+    .container{
+        max-width: 90%;
     }
 
-
-    
+    .site-main .services-area,
+    .site-main .services-area .services-title,
     .site-main .WWD-area{
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-    } 
-
-    .site-main .purpose-area{
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
+        padding: 3% 4%;
     }
-
-    .WWD-area{
-        padding-left: 0% ;
-        padding-right: 0% ;
-        /* background-color: blue; */
+    .small-container {
+        display: none;
     }
-    .WWD-area .container-fluid{
-        /* background-color: chocolate; */
-        padding-left: 0% ;
-        padding-right: 0% ;
+    .facility-card img {
+        width: 80%;
+        border-radius: 7px;
     }
-    
 }
-
-
-/* if the viewport is equal to 792px or less than that */ 
-@media only screen and (max-width: 792px){
-    .site-main .WWD-area{
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-    } 
-
-    .site-main .purpose-area{
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-    }
-
-    .site-main .purpose-area{
-        padding: 0rem 0rem;
-    }
-    
-    .site-main .purpose-area .purpose-title{
-        padding: 0rem;
-        background: rgba(248, 252, 253, 0.973);
-        border-radius: 12px;
-    }
-    
-    .site-main .purpose-area .purpose-title h1{
-        font-size: 35px;
-        font-family: var(--nunito);
-        color:var(--primary-color);
-    }
-    .site-main .purpose-area .purpose-title p{
-        font-size: 20px;
-        font-family: var(--nunito);
-    }
-    .site-main .purpose-area .purpose-title li{
-        font-size: 20px;
-        font-family: var(--nunito);
-    }
-
-    .WWD-area{
-        padding-left: 0% ;
-        padding-right: 0% ;
-        /* background-color: blue; */
-    }
-    .WWD-area .container-fluid{
-        /* background-color: chocolate; */
-        padding-left: 0% ;
-        padding-right: 0% ;
-    }
-    .row_margin{
-        flex-wrap: wrap;
-        margin-right: 0;
-        margin-left: 0;
-    }
-    
-}
-
-
 
 /* if the viewport is equal to 1910px or less than that */ 
-@media only screen and (max-width: 1910px){
+@media only screen and (max-width: 1900px){
     .header_area .nav-item .nav-link{
         padding: 1rem;
     }
@@ -124,68 +42,26 @@
         padding: 3% 4%;
     }
 
+    /* setting the font size to be bigger to suit the biggert screen size */
+    .site-main .purpose-area .purpose-title p{
+        font-size: 20px; /*made bigger*/
+    
+    }
+    .site-main .purpose-area .purpose-title li{
+        font-size: 20px;
+        font-family: var(--nunito);
+        max-width: 600px;
+    }
+.WWD-area .container-fluid{
+    /* background-color: chocolate; */
+    padding-left: 12% ;
+    padding-right: 12% ;
+}
 }
 
-
-
-
-
-
-/* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 340px){
-    .header_area .nav-item .nav-link
-    
-
-    /* removing padding and margin from that nav */
-    {
-        padding: 8%;
-        margin: 0%;
-    }
-
-
-    .bgimage {
-        font-size: 45px;
-        margin: 0%;
-    }
-
-
-    
-    .site-main .WWD-area{
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-    } 
-
-    .site-main .purpose-area{
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-    }
-
-    .WWD-area{
-        padding-left: 0% ;
-        padding-right: 0% ;
-        /* background-color: blue; */
-    }
-    .WWD-area .container-fluid{
-        /* background-color: chocolate; */
-        padding-left: 0% ;
-        padding-right: 0% ;
-    }
-
-    .team-section {
-        padding-left:0px;
-        padding-right:0px;
-      }
-      
-    
-}
-
-
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 /* if the viewport is equal to 792px or less than that */ 
-@media only screen and (max-width: 792px){
+@media only screen and (max-width: 1000px){
     .site-main .WWD-area{
         padding-top: 0px;
         padding-right: 0px;
@@ -231,8 +107,13 @@
     }
     .WWD-area .container-fluid{
         /* background-color: chocolate; */
-        padding-left: 0% ;
-        padding-right: 0% ;
+        padding-left: 10% ;
+        padding-right: 10% ;
+    }
+    .row_margin{
+        flex-wrap: wrap;
+        margin-right: 0;
+        margin-left: 0;
     }
     .team-section {
         padding-left:0px;
@@ -244,25 +125,129 @@
         padding-left:0px;
         padding-right:0px;
     }
-  
+
+    /* setting the font size for screen up top 1000px */
+    .site-main .purpose-area .purpose-title p{
+        font-size: 18px; /*made bigger*/
+    
+    }
+    .site-main .purpose-area .purpose-title li{
+        font-size: 18px;
+        font-family: var(--nunito);
+        max-width: 600px;
+    }
+    
 }
 
+/* if the viewport is equal to 340px or less than that 
 
+made to 450px insted of 340 to account for iphone pro max*/ 
+@media only screen and (max-width: 450px){ 
+    .header_area .nav-item .nav-link
 
-/* if the viewport is equal to 1910px or less than that */ 
-@media only screen and (max-width: 1910px){
-    .header_area .nav-item .nav-link{
-        padding: 1rem;
+/* check @media and flexbox and boostrap */
+
+    /* removing padding and margin from that nav */
+    {
+        padding: 8%;
+        margin: 0%;
     }
 
-    .container{
-        max-width: 90%;
+    .bgimage {
+        font-size: 45px;
+        margin: 0%;
     }
-
-    .site-main .services-area,
-    .site-main .services-area .services-title,
+    
     .site-main .WWD-area{
-        padding: 3% 4%;
+        padding-top: 3%;
+        padding-right: 8%;
+        padding-bottom: 0px;
+        padding-left: 8%;
+    } 
+
+    .site-main .purpose-area{
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
     }
 
+    .WWD-area{
+        padding-left: 0% ;
+        padding-right: 0% ;
+        /* background-color: blue; */
+    }
+    .WWD-area .container-fluid{
+        /* background-color: chocolate; */
+        padding-left: 0% ;
+        padding-right: 0% ;
+    }
+    .team-section {
+        padding-left:0px;
+        padding-right:0px;
+      }
+
+      /* setting the font size for screen up top 340px */
+    .site-main .purpose-area .purpose-title p{
+        font-size: 15px; 
+        margin-left: 3px;
+    
+    }
+    .site-main .purpose-area .purpose-title {
+        padding: 0 0.5rem;
+    }
+    .site-main .WWD-area p {
+        font-size: 13px;
+    }
+    .site-main .purpose-area .purpose-title li{
+        font-size: 15px;
+        font-family: var(--nunito);
+        max-width: 300px;
+        margin-left: 3px;
+    }
+    /* adjusting padding for iphone and size */
+    .title-text { 
+        padding-bottom: 10px;
+    } 
+    .site-main .purpose-area .purpose-title h1{
+        font-size: 20px
+    }
+    .site-main .services-area .wwd-title h1 {
+        font-size: 20px;
+    }
+    .site-main .WWD-area h2 {
+        font-size: 20px;
+        letter-spacing: 1.5px;
+    }
+    .site-main .WWD-area img {
+        max-width: 80%;
+        max-height: 90%;
+    }
+    .row_margin {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .accordion-link {
+        font-size: 20px;
+    }
+    .answer p {
+        font-size: 15px;
+    }
+
+    .question-block {
+        margin: 0px;
+    }
 }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .card .card-content img{
+        width:50%;
+      }
+}
+@media (min-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */
+    .card .card-content img{
+        width:100%;
+      } 
+
+    }
+
