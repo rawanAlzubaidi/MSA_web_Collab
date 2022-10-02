@@ -602,18 +602,21 @@ header .navbar-collapse .menu.active{
 
 
 .header_area .bgimage {
+    padding-top: 50px;
     width:100%;
     height:250px;
-    background:url(/img/SS/social.jpeg);
+    background:url(/img/resource_pageimg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
     opacity: 0.8;
     z-index: -1;
-
+  
     justify-content: center;
     text-align: center;
+    font-size: 30px;
+    color:var(--tamu_maroon);
 
   }
 
@@ -705,6 +708,13 @@ header .navbar-collapse .menu.active{
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     
+}
+
+.icbcs_content{
+  text-align: left;
+  margin-top: 1%;
+  margin-left: 14%;
+  font-size: 25px;
 }
 
 .blog-content .blog-title h1{
@@ -853,11 +863,13 @@ header .navbar-collapse .menu.active{
 .container_prayer {
   max-width: 60%;
   margin: auto;
+  margin-bottom: 5%;
 }
 
 
 .icbcs{
     padding-top:8%;
+    padding-bottom: 1%;
 }
 
 
@@ -999,10 +1011,6 @@ header a{
   .menu-item .sub-menu .sub-item:last-child:hover{
     border-radius: 0 0 8px 8px;
   }
-  
-
-
-
   
   .menu-btn{
     display: none;
