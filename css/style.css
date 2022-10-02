@@ -498,10 +498,7 @@ header .navbar-collapse .menu.active{
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
-
     z-index: -1;
-    
-
 }
 .calender_img  h1 {
     color:var(--tamu_maroon);
@@ -512,10 +509,6 @@ header .navbar-collapse .menu.active{
     color:var(--tamu_maroon);
     font: normal bold 40px/ 50px var(--nunito);
 } 
-
-
-
-
 
  /* ----------------------------------------------------team section  begin  */
 
@@ -1130,3 +1123,228 @@ header a{
       padding: 10px 20px;
     }
   }
+  /*-------------------------------islam page start------------------------*/
+  .about-islam-area{
+    padding-left: 0% ;
+    padding-right: 0% ;
+    padding-top: 7rem;
+    /* background-color: blue; */
+}
+.about-islam-area .container-fluid{
+    /* background-color: chocolate; */
+    padding-left: 20% ;
+    padding-right: 20% ;
+}
+
+.site-main .services-area .wwd-title h1{
+    padding-top: 35px;
+    background: rgba(248, 252, 253, 0.973);
+    border-radius: 12px;
+    font-size: 35px;
+    font-family: var(--nunito);
+    color:var(--tamu_maroon);
+
+}
+
+
+/* image centered inside the margin and */
+.site-main .about-islam-area img{
+
+    display:inline; /* inorder to text-center and the class= "center" */ 
+    /* to make the image fit in the margin when resized  */
+    /* width:100%;
+    max-height: 100%; */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.site-main .about-islam-area h2{
+    display: inline;
+    font: normal bold 49px/ 60px var(--nunito);
+    letter-spacing: 10px;
+    font-size: 35px;
+    color:var(--tamu_maroon);
+}
+.site-main .about-islam-area h3{
+
+  font: normal bold 49px/ 60px var(--nunito);
+  letter-spacing: 10px;
+  font-size: 35px;
+  color:var(--tamu_maroon);
+}
+.site-main .about-islam-area p{
+    font-size: 18px;
+    font-family: var(--nunito);
+    color:var(--tamu_maroon);
+    line-height: 2;
+    margin-top:2rem;
+    margin-bottom:2rem;
+
+}
+
+.site-main .m_area  h1{
+  padding-top: 35px;
+  background:rgb(105, 105, 105);
+  border-radius: 12px;
+  font-size: 35px;
+  font-family: var(--nunito);
+  color:var(--tamu_maroon);
+}
+.site-main .m_area p{
+  padding-top: 35px;
+  background:rgb(105, 105, 105);
+  border-radius: 12px;
+  font-size: 35px;
+  font-family: var(--nunito);
+  color:var(--tamu_maroon);
+}
+
+
+.site-main .islam-title-area{
+  padding-right:2rem;
+  padding-left:2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.site-main .islam-title-area .purpose-title{
+  padding: 0 14rem;
+  /* background: rgba(248, 252, 253, 0.973); */
+  border-radius: 12px;
+
+}
+
+.site-main .islam-title-area .purpose-title h1{
+  font-size: 35px;
+  font-family: var(--nunito);
+  color:var(--primary-color);
+}
+.site-main .islam-title-area .purpose-title p{
+  font-size: 20px;
+  font-family: var(--nunito);
+
+}
+.site-main .islam-title-area .purpose-title li{
+  font-size: 20px;
+  font-family: var(--nunito);
+  max-width: 600px;
+}
+
+.m-section{
+  background: gray;
+}
+
+.m-area-div p{
+  font-size: 18px;
+  font-family: var(--nunito);
+  color:var(--tamu_maroon);
+  line-height: 2;
+  margin-top:2rem;
+  margin-left:5rem;
+  margin-right:5rem;
+}
+.allah-section{
+  background: gray;
+}
+
+.header_area .bgimage_islam {
+
+  height: 400px;
+  width: 100%;
+  /* text-align: center; */
+  padding-top: 100px;
+  color: white;
+  overflow: hidden;
+  background: linear-gradient(rgb(255,255,255,0.2), rgb(255,255,255,0.2)), url(/img/tamuMSA.png);  /* Chrome 10-25, Safari 5.1-6 */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  /* z-index: -1; */
+}
+.bgimage_islam  h1 {
+  color:var(--tamu_maroon);
+  font: normal bold 30px/ 60px var(--nunito);
+}
+
+.bgimage_islam h2 {
+  color:var(--tamu_maroon);
+  font:  20px/ 30px var(--nunito);
+  padding-left:20rem;
+  padding-right: 20rem;
+} 
+
+
+
+..pillers-area{
+  /* background:var(--title-color) ; */
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  background-size: 100%;
+
+}
+.pillers-area .blog-content img{
+  width: 200px;
+  align-items: center;
+
+}
+
+
+.pillers-area .blog-content{
+  /* background:var(--title-color) ; */
+  max-width:20rem;
+  display: block;
+}
+
+
+.pillers-area.blog-post{
+  
+  padding-bottom:12 rem ;
+
+}
+
+.pillers-area .blog-post .blog-content{
+  /* background:white; */
+  /* display: flex; */
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: 3rem 2rem;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  
+}
+
+.pillers-area .blog-content .blog-title h1{
+  font:var(--nunito);
+  color: var(--gardient-color);
+}
+
+.pillers-area .blog-content .blog-title h3{
+  font:var(--nunito);
+  font-size: 12px;
+  align-items: center;
+}
+
+
+.pillers-area .blog-content .btn-blog{
+background-color:var(--button_color); /* Green */
+border: none;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-bottom: 2rem;
+
+}
+
+.site-main .pillers-title  h1{
+  padding-top: 0px;
+  border-radius: 12px;
+  font-size: 35px;
+  font-family: var(--nunito);
+  color:var(--tamu_maroon);
+}
