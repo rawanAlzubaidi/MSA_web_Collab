@@ -743,7 +743,7 @@ header .navbar-collapse .menu.active{
 
 .button {
   display: inline-block;
-  margin-top: 12%;
+  margin-top: 5%;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -835,10 +835,10 @@ header .navbar-collapse .menu.active{
     width: 60%;
  }
  .facility_description p{
-    font-size: 12px;
+    font-size: 14px;
   }
  .facility-card:hover .facility_description{
-    bottom: 40%;
+    bottom: 30%;
     opacity: 1;
  }
 

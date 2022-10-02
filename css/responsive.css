@@ -59,6 +59,24 @@
 }
 }
 
+@media only screen and (max-width: 1350px){
+/*--- resoucers page begin---*/
+
+header .navigation .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    user-select: none;
+    padding-left:10rem;
+  }
+
+  
+.icbcs_content{
+    margin-left:-5%;
+}
+
+}
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 /* if the viewport is equal to 792px or less than that */ 
 @media only screen and (max-width: 1000px){
