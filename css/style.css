@@ -699,6 +699,7 @@ header .navbar-collapse .menu.active{
     display: flex;
     flex-direction: column;
     text-align: center;
+    height: 85%;
     width: 80%;
     margin: 3rem 2rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
@@ -730,7 +731,17 @@ header .navbar-collapse .menu.active{
   
 }
 
-
+.button {
+  display: inline-block;
+  margin-top: 12%;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7aa8b7;
+  border-radius: 6px;
+  outline: none;
+}
 
 .prayer-title h1{
     font: normal bold 49px/ 60px var(--nunito);
@@ -773,7 +784,7 @@ header .navbar-collapse .menu.active{
     border-radius: 7px;
     margin-bottom: 20px;
     color: #fff;
-    width: 100%;
+    width: 80%;
     position: relative;
  }
 
@@ -814,7 +825,7 @@ header .navbar-collapse .menu.active{
     width: 60%;
  }
  .facility_description p{
-    font-size: 14px;
+    font-size: 12px;
   }
  .facility-card:hover .facility_description{
     bottom: 40%;
@@ -837,6 +848,11 @@ header .navbar-collapse .menu.active{
 }
 .jummah-area .container{
     border-radius: 10px;
+}
+
+.container_prayer {
+  max-width: 60%;
+  margin: auto;
 }
 
 
