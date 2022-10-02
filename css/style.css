@@ -1106,3 +1106,123 @@ header a{
       padding: 10px 20px;
     }
   }
+  /*-------------------------------islam page start------------------------*/
+  .about-islam-area{
+    padding-left: 0% ;
+    padding-right: 0% ;
+    /* background-color: blue; */
+}
+.about-islam-area .container-fluid{
+    /* background-color: chocolate; */
+    padding-left: 20% ;
+    padding-right: 20% ;
+}
+
+.site-main .services-area .wwd-title h1{
+    padding-top: 35px;
+    background: rgba(248, 252, 253, 0.973);
+    border-radius: 12px;
+    font-size: 35px;
+    font-family: var(--nunito);
+    color:var(--tamu_maroon);
+
+}
+
+
+/* image centered inside the margin and */
+.site-main .about-islam-area img{
+
+    display:inline; /* inorder to text-center and the class= "center" */ 
+    /* to make the image fit in the margin when resized  */
+    /* width:100%;
+    max-height: 100%; */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.site-main .about-islam-area h2{
+    display: inline;
+    font: normal bold 49px/ 60px var(--nunito);
+    letter-spacing: 10px;
+    font-size: 35px;
+    color:var(--tamu_maroon);
+}
+.site-main .about-islam-area h3{
+
+  font: normal bold 49px/ 60px var(--nunito);
+  letter-spacing: 10px;
+  font-size: 35px;
+  color:var(--tamu_maroon);
+}
+.site-main .about-islam-area p{
+    font-size: 18px;
+    font-family: var(--nunito);
+    color:var(--tamu_maroon);
+    line-height: 2;
+    margin-top:2rem;
+    margin-bottom:2rem;
+
+}
+
+.site-main .m_area  h1{
+  padding-top: 35px;
+  background:rgb(105, 105, 105);
+  border-radius: 12px;
+  font-size: 35px;
+  font-family: var(--nunito);
+  color:var(--tamu_maroon);
+}
+.site-main .m_area p{
+  padding-top: 35px;
+  background:rgb(105, 105, 105);
+  border-radius: 12px;
+  font-size: 35px;
+  font-family: var(--nunito);
+  color:var(--tamu_maroon);
+}
+
+
+.site-main .islam-title-area{
+  padding-right:2rem;
+  padding-left:2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.site-main .islam-title-area .purpose-title{
+  padding: 0 14rem;
+  /* background: rgba(248, 252, 253, 0.973); */
+  border-radius: 12px;
+
+}
+
+.site-main .islam-title-area .purpose-title h1{
+  font-size: 35px;
+  font-family: var(--nunito);
+  color:var(--primary-color);
+}
+.site-main .islam-title-area .purpose-title p{
+  font-size: 20px;
+  font-family: var(--nunito);
+
+}
+.site-main .islam-title-area .purpose-title li{
+  font-size: 20px;
+  font-family: var(--nunito);
+  max-width: 600px;
+}
+
+.m-section{
+  background: gray;
+}
+
+.m-area-div p{
+  font-size: 18px;
+  font-family: var(--nunito);
+  color:var(--tamu_maroon);
+  line-height: 2;
+  margin-top:2rem;
+  margin-left:5rem;
+  margin-right:5rem;
+}
