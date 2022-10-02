@@ -498,10 +498,7 @@ header .navbar-collapse .menu.active{
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
-
     z-index: -1;
-    
-
 }
 .calender_img  h1 {
     color:var(--tamu_maroon);
@@ -512,10 +509,6 @@ header .navbar-collapse .menu.active{
     color:var(--tamu_maroon);
     font: normal bold 40px/ 50px var(--nunito);
 } 
-
-
-
-
 
  /* ----------------------------------------------------team section  begin  */
 
