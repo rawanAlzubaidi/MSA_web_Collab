@@ -517,20 +517,17 @@ header .navbar-collapse .menu.active{
 }
 
 .bgimage {
-    width:100%;
-    height:250px;
-    background:url(/img/SS/social.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: fixed;
-    opacity: 0.8;
-    z-index: -1;
-
-    justify-content: center;
-    text-align: center;
-
+    height:340px;
+    background:url(/img/teambanner.png);
+    opacity: 90%;
   }
+
+
+.bgimage h2 {
+    color:white;
+    font-family: var(--nunito);
+    font: normal bold 40px/ 50px var(--nunito);
+} 
 
 .exc-section {
     padding-left:150px;
@@ -584,6 +581,31 @@ header .navbar-collapse .menu.active{
     font: normal bold 49px/ 60px var(--nunito);
     letter-spacing: 8px;
     font-size: 24px;
+}
+
+.imam-mahad{
+  padding-left:150px;
+  padding-right:150px;
+  /* background-color:var(--box_blue) ; */
+  padding-bottom: 100px;
+}
+.imam-mahad .container{
+  background-color:var(--box_blue) ;
+  /* background: rgba(248, 252, 253, 0.973); */
+  border-radius: 12px;
+}
+.imam-mahad img{
+  border-radius:50%;
+}
+
+
+.imam-mahad h2{
+  padding-top: 40px;
+  padding-bottom: 10px;
+  
+  font: normal bold 49px/ 60px var(--nunito);
+  letter-spacing: 8px;
+  font-size: 24px;
 }
 
  /* ----------------------------------------------------team section  end */
@@ -1185,7 +1207,7 @@ header a{
 
 .site-main .m_area  h1{
   padding-top: 35px;
-  background:rgb(105, 105, 105);
+
   border-radius: 12px;
   font-size: 35px;
   font-family: var(--nunito);
@@ -1232,7 +1254,7 @@ header a{
 }
 
 .m-section{
-  background: gray;
+  background:var(--box_blue);
 }
 
 .m-area-div p{
@@ -1245,7 +1267,10 @@ header a{
   margin-right:5rem;
 }
 .allah-section{
-  background: gray;
+  background:var(--box_blue);
+}
+.m-area{
+  background:var(--box_blue);
 }
 
 .header_area .bgimage_islam {
