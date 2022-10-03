@@ -183,6 +183,43 @@ made to 450px insted of 340 to account for iphone pro max*/
         font-size: 45px;
         margin: 0%;
     }
+    .navbar-brand{
+        margin-left: -15%; 
+    }
+    .header_area .bgimage_home{
+        font-size: 45px;
+        margin: 0%;
+        height: 750px;
+        width: 100%;
+        text-align: center;
+        padding-top: 250px;
+        color: white;
+        overflow: hidden;
+        background: linear-gradient(rgb(255,255,255,0.2), rgb(255,255,255,0.2)), url(/img/tamuMSA.png);  /* Chrome 10-25, Safari 5.1-6 */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        /* background-attachment: fixed; */
+
+        z-index: -1;
+    }
+    .bgimage-team {
+        padding-top: 50px;
+        width:100%;
+        height:250px;
+        background:url(/img/teambanner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+
+        opacity: 0.8;
+        z-index: -1;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        color:white;
+    
+      }
     
     .site-main .WWD-area{
         padding-top: 3%;
