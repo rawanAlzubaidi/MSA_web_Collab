@@ -62,7 +62,7 @@
 @media only screen and (max-width: 1360px){
     /*--- resoucers page begin---*/
     
-    header .navigation .menu{
+    header .navigation .menu{ 
         position: relative;
         display: flex;
         justify-content: center;

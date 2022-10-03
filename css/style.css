@@ -502,7 +502,10 @@ header .navbar-collapse .menu.active{
 }
 .container {
   margin: 2% auto 2%;
-  max-width: 1170px; 
+}
+.cal_size{
+  width: 100%;
+  height: 723px;
 }
 
 .calender_img  h1 {
