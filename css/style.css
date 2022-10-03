@@ -493,13 +493,21 @@ header .navbar-collapse .menu.active{
     padding-top: 250px;
     color: white;
     overflow: hidden;
-    background: linear-gradient(rgb(255,255,255,0.2), rgb(255,255,255,0.2)), url(/img/tamuMSA.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(255,255,255,0.2), rgb(255,255,255,0.2)), url(/img/resource_pageimg.jpg);  /* Chrome 10-25, Safari 5.1-6 */
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
     z-index: -1;
 }
+.container {
+  margin: 2% auto 2%;
+}
+.cal_size{
+  width: 100%;
+  height: 723px;
+}
+
 .calender_img  h1 {
     color:var(--tamu_maroon);
     font: normal bold 40px/ 50px var(--nunito);
@@ -858,7 +866,6 @@ header .navbar-collapse .menu.active{
   margin: auto;
   margin-bottom: 5%;
 }
-
 
 .icbcs{
     padding-top:8%;
@@ -1277,7 +1284,7 @@ header a{
 
 
 
-..pillers-area{
+.pillers-area{
   /* background:var(--title-color) ; */
   background-repeat: no-repeat;
   background-position: right;
@@ -1347,4 +1354,11 @@ margin-bottom: 2rem;
   font-size: 35px;
   font-family: var(--nunito);
   color:var(--tamu_maroon);
+}
+
+/* -------------For nav bar in calendar page----------------*/
+@media only screen and (max-width: 1500px) {
+  header .navigation .menu{
+    padding-left: 10rem;
+  }
 }
