@@ -1389,3 +1389,314 @@ margin-bottom: 2rem;
   font-family: var(--nunito);
   color:var(--tamu_maroon);
 }
+
+
+/* --------------------------------- contact us start------------------*/
+.header_area .bgimage_contact {
+
+  height: 340px;
+  width: 100%;
+  text-align: center;
+  padding-top: 250px;
+  color: white;
+  overflow: hidden;
+  background: linear-gradient(rgb(255,255,255,0.2), rgb(255,255,255,0.2)), url(/img/tamuMSA.png);  /* Chrome 10-25, Safari 5.1-6 */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+
+  z-index: -1;
+  
+
+}
+.bgimage_contact  h1 {
+  color:var(--tamu_maroon);
+  font: normal bold 40px/ 50px var(--nunito);
+}
+
+.bgimage_contact h2 {
+  color:var(--tamu_maroon);
+  font: normal bold 40px/ 50px var(--nunito);
+} 
+.c_body{
+  background-color: #fff;
+
+}
+
+  .container_cntct{
+    position:relative;
+    height: 600px ;
+    padding: 50px 100px;;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url(/img/icbcLogo.png);
+    background-attachment: fixed top;
+    background-position: top;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    
+  }
+
+  .container_cntct .heading_cntct{
+    color: #ffffff;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+
+  }
+  .container_cntct .heading_cntct{
+    text-align: left;
+    font-size: 40px;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-weight: 700;
+    color: #fff;
+
+  }
+  .cont_card_wrap{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+
+  }
+
+  .cont_card_wrap .cont_card_item{
+    padding: 15px 25px;
+    width: 25%;
+
+  }
+
+  .cont_card_wrap .cont_card_inner{
+    background: #fff;
+    border-radius: 5px;
+    padding: 35px 20px;
+    min-width: 225px;
+    min-height: 315px;
+    max-height: 370px;
+    width: 100%;
+    z-index: 0;
+    overflow: hidden;
+    border: 0px solid #f2f8f9;
+  }
+  
+
+  .cont_card_inner:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: rgb(223, 223, 223);
+    text-decoration-color: #cccccc;
+  }
+
+  .cont_card_inner:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);  
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+    }
+
+  .cont_card_inner:hover:before {
+    transform: scale(2.15);
+    }
+    
+  
+
+  
+
+  .cont_card_wrap .cont_card_inner img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    margin: auto;
+    display: block;
+  }
+  .cont_card_wrap .cont_card_inner:hover img{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 10px;
+    margin: auto;
+    display: block;
+  }
+  .cont_card_wrap .cont_card_inner img:before{
+    transition: transform 1s ease-out ;
+  }
+  .cont_card_wrap .cont_card_inner img:hover:before{
+    transform: scale(2.15);
+  }
+
+  .cont_card_wrap .cont_card_inner .s_media{
+    color:var(--tamu_maroon);
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+  }
+  .cont_card_wrap .cont_card_inner .s_media_p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    color: #23252B;
+  }
+  
+  .cont_card_wrap .cont_card_inner a:link{
+    text-decoration: none;
+  }
+  .cont_card_wrap .cont_card_inner a:visited{
+    text-decoration: none;
+  }
+  .cont_card_wrap .cont_card_inner a:hover{
+    text-decoration: none;
+  }
+  .cont_card_wrap .cont_card_inner a:active{
+    text-decoration: none;
+  }
+ 
+  .FormContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+  }
+  .contact_form{
+    width: 400px;
+    padding: 40px;
+    background: #fff;
+    justify-content: left;
+  }
+
+  .contact_form .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact_form .contactInfo .c_box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+  }
+
+  .contact_form .contactInfo .c_box .icon{
+    min-width: 60px;
+    min-height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 22px;
+  }
+
+  .contact_form .contactInfo .c_box .text{
+    display: flex;
+    margin-left: 20 px;
+    font-size: 16px;
+    color: black;
+  }
+  .contact_form h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 300;
+    text-align: center;
+
+  }
+  .contact_form .input_box{
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .contact_form .input_box input,
+  .contact_form .input_box textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+  }
+  .contact_form .input_box span{
+    position:absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+  }
+
+  .contact_form .input_box input:focus ~ span,
+  .contact_form .input_box input:valid ~ span,
+  .contact_form .input_box textarea:focus ~ span,
+  .contact_form .input_box textarea:valid ~ span
+  {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+  }
+  .contact_form .input_box input[type = "submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+
+
+
+
+  @media screen and (max-width: 1024px){
+    .cont_card_wrap .cont_card_item{
+      width: 33%;
+    }
+  
+  }
+
+  @media screen and (max-width: 768px){
+    .cont_card_wrap .cont_card_item{
+      width: 50%;
+    }
+  
+  }
+  @media screen and (max-width: 568px){
+    .cont_card_wrap .cont_card_item{
+      width: 100%;
+    }
+
+  }
+  @media (max-width:991px){
+    .FormContainer{
+      flex-direction: column;
+    }
+    .FormContainer .contactInfo{
+      margin-bottom: 40px;
+    }
+  }
+  
+/*----------------------------------------------conytact us ends------------------------*/
